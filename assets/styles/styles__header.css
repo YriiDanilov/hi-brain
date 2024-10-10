@@ -1,0 +1,43 @@
+.header {
+  margin-bottom: 80px;
+  background-color: var(--white);
+  border-bottom: 1px solid var(--grey-ligth);
+}
+
+.header__wrapper {
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  margin-right: 35px;
+}
+
+.header__first-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 850px;
+}
+
+.header__search-icon-link {
+  background-image: url('../images/header/search.svg');
+  width: 24px;
+  height: 24px;
+}
+
+.header__regist {
+  display: flex;
+  column-gap: 8px;
+}
+
+.header__regist-icon {
+  background-image: url('../images/header/registration.svg');
+  width: 24px;
+  height: 24px;
+}
+
+.header__resgist-text {
+  text-decoration: none;
+  color: var(--grey);
+}

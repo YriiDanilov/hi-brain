@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
+    <script defer src="./index.js"></script>
+    <title>Hi Brain</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <div class="header__first-wrapper">
+            <a class="header__logo-icon-link" href="#">
+              <img class="header__logo-img" src="./assets/images/header/logo.svg" alt="" />
+            </a>
+            <a class="header__search-icon-link" href="#search"></a>
+            <a class="header__link link" href="#">Разместить объявление</a>
+          </div>
+          <div class="header__regist">
+            <a class="header__regist-icon" href="#"></a>
+            <a class="header__resgist-text" href="#">Войти</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- main -->
+    <main>
+      <section class="hero__section">
+        <div class="container">
+          <div class="hero__wrapper">
+            <div class="hero__first-block">
+              <h1 class="hero__title">Доска объявлений</h1>
+              <p class="hero__text">Обо всех важных событиях IT и Digital мира: дайджесты курсов, полезные ресурсы, митапы, конференции, хакатоны и новости от команды HiBrain</p>
+              <div class="hero__form">
+                <form class="form" action="#">
+                  <button class="hero__btn" type="submit"></button>
+                  <input class="hero_input" type="text" id="search" placeholder="Поиск" />
+                </form>
+              </div>
+            </div>
+            <div class="hero__second-block"></div>
+            <div class="hero__third-block bg-img"></div>
+          </div>
+        </div>
+      </section>
+      <!-- items -->
+      <section class="items">
+        <div class="container">
+          <div class="items__nav-wrapper">
+            <nav class="items__nav">
+              <ul class="items__list">
+                <a class="link" href="#">
+                  <li class="items__list-item">Вся доска</li>
+                </a>
+                <a class="items__nav-link checked" href="#">
+                  <li class="items__item-nav">
+                  Бытовая техника
+                  </li>
+                </a>
+                <a class="items__nav-link" href="#">
+                    <li class="items__item-nav">
+                  Одежда
+                  </li>
+                </a>
+                <a class="items__nav-link" href="#">
+                  <li class="items__item-nav">
+                    Автомобили
+                  </li>
+                </a>
+                <a class="items__nav-link" href="#">
+                  <li class="items__item-nav">
+                    Телефоны
+                  </li>
+                </a>
+              </ul>
+            </nav>
+          </div>
+
+          <h2 class="items__title">Вся лента</h2>
+          <div class="items__box-wrapper">
+            <article class="items__item">
+              <div class="item__header-wrapper">
+                <a class="item__link-img link" href="#">Техника</a>
+                <img class="item__header-img" src="/assets/images/item/item-1.jpg" alt="">
+              </div>
+              <h3 class="item__title">Стиральная машинка Bosch</h3>
+              <p class="item__text">Уходящий год для айтишников прошёл под девизом: «Work hard, learn more».</p>
+              <div class="item__price">1000 Р</div>
+              <div class="item__footer-wrapper">
+                <div class="item__date">14 апреля 2021</div>
+                <div class="wrapper__item-views">
+                  <div class="item__views-img"></div>
+                  <div class="item__views-count">356</div>
+                </div>
+              </div>
+            </article>
+
+            <article class="items__item">
+              <div class="item__header-wrapper">
+                <a class="item__link-img link" href="#">Одежда</a>
+                <img class="item__header-img" src="/assets/images/item/item-2.jpg" alt="">
+              </div>
+              <h3 class="item__title c-grey">Шапочка</h3>
+              <p class="item__text">Уходящий год для айтишников прошёл под девизом: «Work hard, learn more».</p>
+              <div class="item__price">1000 Р</div>
+              <div class="item__footer-wrapper">
+                <div class="item__date">14 апреля 2021</div>
+                <div class="wrapper__item-views">
+                  <div class="item__views-img"></div>
+                  <div class="item__views-count">356</div>
+                </div>
+              </div>
+            </article>
+
+            <article class="items__item">
+              <div class="item__header-wrapper">
+                <a class="item__link-img link" href="#">Одежда</a>
+                <img class="item__header-img" src="/assets/images/item/item-2.jpg" alt="">
+              </div>
+              <h3 class="item__title c-grey">Шапочка</h3>
+              <p class="item__text">Уходящий год для айтишников прошёл под девизом: «Work hard, learn more».</p>
+              <div class="item__price">1000 Р</div>
+              <div class="item__footer-wrapper">
+                <div class="item__date">14 апреля 2021</div>
+                <div class="wrapper__item-views">
+                  <div class="item__views-img"></div>
+                  <div class="item__views-count">356</div>
+                </div>
+              </div>
+            </article>
+            <article class="items__item">
+              <div class="item__header-wrapper">
+                <a class="item__link-img link" href="#">Статьи</a>
+                <img class="item__header-img" src="/assets/images/item/item-1.jpg" alt="">
+              </div>
+              <h3 class="item__title">Дайджест IT-вакансий за март 2021</h3>
+              <p class="item__text">Уходящий год для айтишников прошёл под девизом: «Work hard, learn more».</p>
+              <div class="item__price">1000 Р</div>
+              <div class="item__footer-wrapper">
+                <div class="item__date">14 апреля 2021</div>
+                <div class="wrapper__item-views">
+                  <div class="item__views-img"></div>
+                  <div class="item__views-count">356</div>
+                </div>
+              </div>
+            </article>
+            <article class="items__item">
+              <div class="item__header-wrapper">
+                <a class="item__link-img link" href="#">Статьи</a>
+                <img class="item__header-img" src="/assets/images/item/item-2.jpg" alt="">
+              </div>
+              <h3 class="item__title c-grey">С Новым 2021 годом!</h3>
+              <p class="item__text">Уходящий год для айтишников прошёл под девизом: «Work hard, learn more».</p>
+              <div class="item__price">1000 Р</div>
+              <div class="item__footer-wrapper">
+                <div class="item__date">14 апреля 2021</div>
+                <div class="wrapper__item-views">
+                  <div class="item__views-img"></div>
+                  <div class="item__views-count">356</div>
+                </div>
+              </div>
+            </article>
+            <article class="items__item">
+              <div class="item__header-wrapper">
+                <a class="item__link-img link" href="#">Статьи</a>
+                <img class="item__header-img" src="/assets/images/item/item-2.jpg" alt="">
+              </div>
+              <h3 class="item__title c-grey">С Новым 2021 годом!</h3>
+              <p class="item__text">Уходящий год для айтишников прошёл под девизом: «Work hard, learn more».</p>
+              <div class="item__price">1000 Р</div>
+              <div class="item__footer-wrapper">
+                <div class="item__date">14 апреля 2021</div>
+                <div class="wrapper__item-views">
+                  <div class="item__views-img"></div>
+                  <div class="item__views-count">356</div>
+                </div>
+              </div>
+            </article>
+            <article class="items__item">
+              <div class="item__header-wrapper">
+                <a class="item__link-img link" href="#">Техника</a>
+                <img class="item__header-img" src="/assets/images/item/item-1.jpg" alt="">
+              </div>
+              <h3 class="item__title">Дайджест IT-вакансий за март 2021</h3>
+              <p class="item__text">Уходящий год для айтишников прошёл под девизом: «Work hard, learn more».</p>
+              <div class="item__price">1000 Р</div>
+              <div class="item__footer-wrapper">
+                <div class="item__date">14 апреля 2021</div>
+                <div class="wrapper__item-views">
+                  <div class="item__views-img"></div>
+                  <div class="item__views-count">356</div>
+                </div>
+              </div>
+            </article>
+            <article class="items__item">
+              <div class="item__header-wrapper">
+                <a class="item__link-img link" href="#">Статьи</a>
+                <img class="item__header-img" src="/assets/images/item/item-2.jpg" alt="">
+              </div>
+              <h3 class="item__title c-grey">С Новым 2021 годом!</h3>
+              <p class="item__text">Уходящий год для айтишников прошёл под девизом: «Work hard, learn more».</p>
+              <div class="item__price">1000 Р</div>
+              <div class="item__footer-wrapper">
+                <div class="item__date">14 апреля 2021</div>
+                <div class="wrapper__item-views">
+                  <div class="item__views-img"></div>
+                  <div class="item__views-count">356</div>
+                </div>
+              </div>
+            </article>
+            <article class="items__item">
+              <div class="item__header-wrapper">
+                <a class="item__link-img link" href="#">Статьи</a>
+                <img class="item__header-img" src="/assets/images/item/item-2.jpg" alt="">
+              </div>
+              <h3 class="item__title c-grey">С Новым 2021 годом!</h3>
+              <p class="item__text">Уходящий год для айтишников прошёл под девизом: «Work hard, learn more».</p>
+              <div class="item__price">1000 Р</div>
+              <div class="item__footer-wrapper">
+                <div class="item__date">14 апреля 2021</div>
+                <div class="wrapper__item-views">
+                  <div class="item__views-img"></div>
+                  <div class="item__views-count">356</div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

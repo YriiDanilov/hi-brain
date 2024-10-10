@@ -1,0 +1,63 @@
+.hero__wrapper {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.hero__first-block {
+  grid-column: 1 / span 5;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+
+.hero__title {
+  font-family: var(--font-family-accent);
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+}
+
+.hero__text {
+  font-size: 16px;
+  text-align: left;
+  
+}
+
+.form {
+  position: relative;
+}
+
+.hero_input {
+  width: 484px;
+  height: 48px;
+  border: 1px solid rgba(42, 47, 55, 0.08);
+  background-color: rgba(42, 47, 55, 0.02);
+  color: var(--grey-light)
+}
+
+.hero_input::placeholder {
+  color: rgba(42, 47, 55, 0.5);
+  font-family: var(--font-family-base);
+}
+
+.hero__btn {
+  border: none;
+  background: url('/assets/images/hero/search-hero.svg') no-repeat #FFF;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 13px;
+  left: 440px;
+  cursor: pointer;
+}
+
+.bg-img {
+  background: url('/assets/images/hero/sound.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  grid-column: 9/ span 13;
+  height: 310px;
+}
+
+

@@ -1,0 +1,12 @@
+:root {
+  --white: #fff;
+  --blue: #1E3DAF;
+  --grey-ligth: rgba(42, 47, 55, 0.12);
+  --grey: #2A2F37;
+  --grey-bg: rgba(42,47,55, 0.04);
+  
+  --font-family-base: "Roboto", sans-serif;
+  --font-family-accent: "Roboto Slab", sans-serif;
+
+
+}
