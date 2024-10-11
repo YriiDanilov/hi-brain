@@ -1,7 +1,8 @@
-@import '/assets/styles/styles__header.css';
-@import '/assets/styles/root.css';
-@import '/node_modules/@a1rth/css-normalize/index.css';
-@import '/assets/styles/fonts.css';
-@import '/assets/styles/global.css';
-@import '/assets/styles/hero.css';
-@import '/assets/styles/items.css';
+
+@import '../styles/styles__header.css';
+@import '../styles/root.css';
+@import '../styles/fonts.css';
+@import '../styles/global.css';
+@import '../styles/hero.css';
+@import '../styles/items.css';
+@import '../styles/normilize.css';

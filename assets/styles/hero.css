@@ -42,7 +42,7 @@
 
 .hero__btn {
   border: none;
-  background: url('/assets/images/hero/search-hero.svg') no-repeat #FFF;
+  background: url('../images/hero/search-hero.svg') no-repeat #FFF;
   width: 24px;
   height: 24px;
   position: absolute;
@@ -52,7 +52,7 @@
 }
 
 .bg-img {
-  background: url('/assets/images/hero/sound.svg');
+  background: url('../images/hero/sound.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;

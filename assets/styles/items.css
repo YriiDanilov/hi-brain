@@ -92,9 +92,14 @@
 .item__views-img {
   width: 24px;
   height: 24px;
-  background-image: url('/assets/images/item/views.svg');
+  background-image: url('../images/item/views.svg');
 }
 
 .c-grey {
   color: var(--grey)
+}
+
+.items__loading {
+  display: inline-block;
+  margin: 0 auto;
 }
